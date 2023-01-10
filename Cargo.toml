@@ -1,0 +1,23 @@
+[package]
+name = "ktt"
+version = "0.1.0"
+edition = "2021"
+
+license = "Apache-2.0"
+
+authors = ["Jens Reimann <jreimann@redhat.com>"]
+description = "Kicking the tires on a binary"
+repository = "https://github.com/ctron/ktt"
+categories = ["command-line-utilities", "development-tools"]
+keywords = ["sbom", "cyclonedx", "auditable"]
+readme = "README.md"
+
+[dependencies]
+anyhow = "1.0.68"
+auditable-info = "0.6.2"
+auditable-serde = "0.5.2"
+clap = { version = "4.0.32", features = ["derive", "cargo"] }
+cyclonedx-bom = "0.4.0"
+log = "0.4.17"
+simplelog = "0.12"
+thiserror = "1.0.38"
