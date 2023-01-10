@@ -9,7 +9,7 @@ Get some dependency information on a Rust binary.
 Assuming you have a Rust binary built using `cargo auditable build`, you can do something like this:
 
 ```
-$ ktt target/debug/markdown-test-report
+$ ktt sbom target/debug/markdown-test-report
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.3",
